@@ -1,0 +1,11 @@
+def calc_si(p,r=2,t=3):
+    return(p*r*t/100)
+p=int(input("enter principal amount:"))
+r=float(input("enter rate of interest:"))
+t=int(input("enter time period: "))
+si=calc_si(p,r,t)
+print("si is",si,"\n")
+si=calc_si(p,r)
+print("si is",si,"\n")
+si=calc_si(p)
+print("si is",si,"\n")
