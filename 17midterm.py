@@ -1,0 +1,1 @@
+#waf to store the records into a csv file "teacher.csv". the records contains t_id, t_name, subject. after that display records of teachers who teaches "maths" as subject
